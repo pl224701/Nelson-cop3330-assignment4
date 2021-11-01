@@ -4,6 +4,15 @@
 autonumber
 
 @startuml
+
+class App
+{
+    fxmlloader: FXMLLoader
+    scene: Scene
+    public static void main(String[] args)
+    public void start(Stage stage)
+}
+
 class list
 {
     public static ArrayList<toDoList> lists
